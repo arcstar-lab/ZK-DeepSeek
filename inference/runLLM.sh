@@ -1,0 +1,1 @@
+ WORLD_SIZE=1 RANK=0 LOCAL_RANK=0 MASTER_ADDR=127.0.0.1 python3 generate.py --ckpt-path /data3/DeepSeek-V3-Demo1 --config configs/config_671B.json --interactive --temperature 1.0 --max-new-tokens 200 > logs/log_$(date +%Y%m%d_%H%M%S).txt 2>&1
